@@ -1,0 +1,142 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 1,
+                "origin_hash": "e9b4b00619d1b2c7b1ce6570b5a7e972"
+            }
+        ],
+        "target_uinput": "mouse",
+        "output_type": 2,
+        "output_code": 1,
+        "mapping_type": "analog"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 3,
+                "code": 0,
+                "origin_hash": "e9b4b00619d1b2c7b1ce6570b5a7e972"
+            }
+        ],
+        "target_uinput": "mouse",
+        "output_type": 2,
+        "output_code": 0,
+        "name": "Joystick-X",
+        "mapping_type": "analog"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 293,
+                "origin_hash": "e9b4b00619d1b2c7b1ce6570b5a7e972"
+            }
+        ],
+        "target_uinput": "mouse",
+        "output_symbol": "BTN_MIDDLE",
+        "name": "MouseMiddle",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 288,
+                "origin_hash": "e9b4b00619d1b2c7b1ce6570b5a7e972"
+            }
+        ],
+        "target_uinput": "mouse",
+        "output_symbol": "BTN_LEFT",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 291,
+                "origin_hash": "e9b4b00619d1b2c7b1ce6570b5a7e972"
+            }
+        ],
+        "target_uinput": "mouse",
+        "output_symbol": "BTN_RIGHT",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 290,
+                "origin_hash": "e9b4b00619d1b2c7b1ce6570b5a7e972"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "t",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 298,
+                "origin_hash": "e9b4b00619d1b2c7b1ce6570b5a7e972"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "8",
+        "name": "Button BASE NUMPAD5",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 300,
+                "origin_hash": "e9b4b00619d1b2c7b1ce6570b5a7e972"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "2",
+        "name": "Button BASE NUMPAD2",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 301,
+                "origin_hash": "e9b4b00619d1b2c7b1ce6570b5a7e972"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "4",
+        "name": "Button BASE NUMPAD4",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 299,
+                "origin_hash": "e9b4b00619d1b2c7b1ce6570b5a7e972"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "6",
+        "name": "Button BASE NUMPAD6",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 289,
+                "origin_hash": "e9b4b00619d1b2c7b1ce6570b5a7e972"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "5",
+        "mapping_type": "key_macro"
+    }
+]
