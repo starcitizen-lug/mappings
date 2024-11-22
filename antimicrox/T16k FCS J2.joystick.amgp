@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joystick configversion="19" appversion="3.5.0">
+    <!--The SDL name for a joystick is included for informational purposes only.-->
+    <sdlname>Thrustmaster T.16000M</sdlname>
+    <!--The Unique ID for a joystick is included for informational purposes only.-->
+    <uniqueID>030065a94f0400000ab1000000010000110345322</uniqueID>
+    <sets>
+        <set index="1">
+            <axis index="2">
+                <throttle>normal</throttle>
+            </axis>
+            <axis index="3">
+                <throttle>normal</throttle>
+            </axis>
+            <axis index="4">
+                <throttle>normal</throttle>
+            </axis>
+            <axis index="1">
+                <throttle>normal</throttle>
+            </axis>
+            <button index="2">
+                <slots>
+                    <slot>
+                        <code>0x52</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="11">
+                <slots>
+                    <slot>
+                        <code>4</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="16">
+                <slots>
+                    <slot>
+                        <code>5</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="1">
+                <slots>
+                    <slot>
+                        <code>500</code>
+                        <mode>hold</mode>
+                    </slot>
+                    <slot>
+                        <code>0x11000021</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                    <slot>
+                        <code>10</code>
+                        <mode>release</mode>
+                    </slot>
+                    <slot>
+                        <code>0x1000033</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                    <slot>
+                        <code>490</code>
+                        <mode>release</mode>
+                    </slot>
+                </slots>
+            </button>
+        </set>
+    </sets>
+</joystick>
