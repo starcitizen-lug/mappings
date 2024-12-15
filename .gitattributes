@@ -1,0 +1,2 @@
+# Preserve Star Citizen expected EOL for the binding XML files.
+*.xml text eol=crlf
