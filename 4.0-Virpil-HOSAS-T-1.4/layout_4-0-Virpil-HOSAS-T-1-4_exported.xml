@@ -294,6 +294,9 @@
   <action name="v_ifcs_reset_gmeter_max">
    <rebind input="js3_ "/>
   </action>
+  <action name="v_ifcs_speed_limiter_abs">
+   <rebind input="js1_slider1"/>
+  </action>
   <action name="v_ifcs_throttle_swap_mode">
    <rebind input="kb1_ "/>
    <rebind input="js3_ "/>
@@ -332,9 +335,6 @@
   </action>
   <action name="v_space_brake">
    <rebind input="kb1_ "/>
-  </action>
-  <action name="v_speed_range_abs">
-   <rebind input="js1_slider1"/>
   </action>
   <action name="v_strafe_back">
    <rebind input="kb1_ "/>
@@ -423,15 +423,15 @@
  <actionmap name="spaceship_docking">
   <action name="v_dock_toggle_view">
    <rebind input="kb1_ "/>
-   <rebind input="js3_button39"/>
+   <rebind input="js3_ "/>
   </action>
   <action name="v_invoke_docking">
    <rebind input="kb1_ "/>
-   <rebind input="js3_button38"/>
+   <rebind input="js3_ "/>
   </action>
   <action name="v_toggle_docking_mode">
    <rebind input="kb1_ "/>
-   <rebind input="js3_button41"/>
+   <rebind input="js3_ "/>
   </action>
  </actionmap>
  <actionmap name="spaceship_targeting">
