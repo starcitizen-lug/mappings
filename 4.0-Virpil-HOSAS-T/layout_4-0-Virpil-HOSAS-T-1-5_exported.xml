@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="4-0-Virpil-HOSAS-T-1-4">
- <CustomisationUIHeader label="4-0-Virpil-HOSAS-T-1-4" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="4-0-Virpil-HOSAS-T-1-5">
+ <CustomisationUIHeader label="4-0-Virpil-HOSAS-T-1-5" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -285,7 +285,7 @@
   </action>
   <action name="v_atc_request">
    <rebind input="kb1_ "/>
-   <rebind input="js3_button43"/>
+   <rebind input="js2_button27"/>
   </action>
   <action name="v_autoland">
    <rebind input="kb1_ "/>
@@ -391,7 +391,7 @@
   </action>
   <action name="v_toggle_landing_system">
    <rebind input="kb1_ "/>
-   <rebind input="js3_button40"/>
+   <rebind input="js2_button29"/>
   </action>
   <action name="v_toggle_vtol">
    <rebind input="kb1_ "/>
@@ -402,13 +402,13 @@
   </action>
   <action name="v_transform_cycle">
    <rebind input="kb1_ "/>
-   <rebind input="js3_button5"/>
+   <rebind input="js3_ "/>
   </action>
   <action name="v_transform_deploy">
-   <rebind input="js3_button6"/>
+   <rebind input="js1_button29"/>
   </action>
   <action name="v_transform_retract">
-   <rebind input="js3_button7"/>
+   <rebind input="js1_button27"/>
   </action>
   <action name="v_yaw_mouse">
    <rebind input="mo1_ "/>
