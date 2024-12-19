@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="4-0-Virpil-HOSAS-T-1-5">
- <CustomisationUIHeader label="4-0-Virpil-HOSAS-T-1-5" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="4-0-Virpil-HOSAS-T-1-6">
+ <CustomisationUIHeader label="4-0-Virpil-HOSAS-T-1-6" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -166,11 +166,14 @@
   <action name="v_mfd_movement_up_short">
    <rebind input="js2_button8"/>
   </action>
+  <action name="v_mfd_select_view_comms_long">
+   <rebind input="js2_button9"/>
+  </action>
   <action name="v_mfd_select_view_diagnostics_long">
    <rebind input="js2_ "/>
   </action>
   <action name="v_mfd_select_view_resource_network_long">
-   <rebind input="js2_button9"/>
+   <rebind input="js2_button7"/>
   </action>
   <action name="v_mfd_select_view_scanning_long">
    <rebind input="js2_button10"/>
@@ -225,8 +228,7 @@
    <rebind input="kb1_ "/>
   </action>
   <action name="v_view_cycle_fwd">
-   <rebind input="kb1_ "/>
-   <rebind input="js1_button30"/>
+   <rebind input="js1_button6"/>
   </action>
   <action name="v_view_dynamic_zoom_abs">
    <rebind input="js3_ "/>
@@ -1002,7 +1004,7 @@
  <actionmap name="lights_controller">
   <action name="v_lights">
    <rebind input="kb1_ "/>
-   <rebind input="js1_button6"/>
+   <rebind input="js1_button30"/>
   </action>
  </actionmap>
  <actionmap name="stopwatch">
