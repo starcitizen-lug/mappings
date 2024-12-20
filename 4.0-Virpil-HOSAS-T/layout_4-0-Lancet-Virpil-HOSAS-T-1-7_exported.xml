@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="4-0-Virpil-HOSAS-T-1-6">
- <CustomisationUIHeader label="4-0-Virpil-HOSAS-T-1-6" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="4-0-Lancet-Virpil-HOSAS-T-1-7">
+ <CustomisationUIHeader label="4-0-Lancet-Virpil-HOSAS-T-1-7" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -24,6 +24,7 @@
  <options type="joystick" instance="1" Product="R-VPC Stick WarBRD  {40CB3344-0000-0000-0000-504944564944}">
   <flight_move_speed_range_abs invert="1"/>
   <flight_view_pitch invert="1"/>
+  <turret_aim_pitch invert="1"/>
   <weapon_convergence_distance_abs invert="1"/>
  </options>
  <options type="joystick" instance="2" Product="L-VPC Stick WarBRD  {80CB3344-0000-0000-0000-504944564944}">
@@ -44,7 +45,7 @@
    <rebind input="kb1_ "/>
   </action>
   <action name="v_enter_remote_turret_1">
-   <rebind input="js3_button22"/>
+   <rebind input="js3_button26"/>
   </action>
   <action name="v_enter_remote_turret_2">
    <rebind input="js3_button25"/>
@@ -593,10 +594,10 @@
  </actionmap>
  <actionmap name="spaceship_salvage">
   <action name="tractor_beam_vehicle_decrease_distance">
-   <rebind input="js2_button24"/>
+   <rebind input="js1_button23"/>
   </action>
   <action name="tractor_beam_vehicle_increase_distance">
-   <rebind input="js2_button23"/>
+   <rebind input="js1_button24"/>
   </action>
   <action name="v_salvage_beam_spacing_abs">
    <rebind input="js3_rotz"/>
@@ -676,14 +677,9 @@
   <action name="turret_mouse_mode_cycle">
    <rebind input="kb1_ "/>
   </action>
-  <action name="turret_pitch_mouse">
-   <rebind input="mo1_ "/>
-  </action>
   <action name="turret_remote_exit">
    <rebind input="kb1_ "/>
-  </action>
-  <action name="turret_yaw_mouse">
-   <rebind input="mo1_ "/>
+   <rebind input="js3_button22"/>
   </action>
  </actionmap>
  <actionmap name="turret_advanced">
@@ -1025,10 +1021,10 @@
  </actionmap>
  <actionmap name="tractor_beam">
   <action name="tractor_beam_decrease_distance">
-   <rebind input="js1_ "/>
+   <rebind input="js1_button23"/>
   </action>
   <action name="tractor_beam_increase_distance">
-   <rebind input="js1_ "/>
+   <rebind input="js1_button24"/>
   </action>
  </actionmap>
  <actionmap name="vehicle_general">
