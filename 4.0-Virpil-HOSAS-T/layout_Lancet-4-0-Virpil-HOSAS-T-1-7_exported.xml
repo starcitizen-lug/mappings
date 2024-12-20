@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="4-0-Lancet-Virpil-HOSAS-T-1-7">
- <CustomisationUIHeader label="4-0-Lancet-Virpil-HOSAS-T-1-7" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="Lancet-4-0-Virpil-HOSAS-T-1-7">
+ <CustomisationUIHeader label="Lancet-4-0-Virpil-HOSAS-T-1-7" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -677,9 +677,15 @@
   <action name="turret_mouse_mode_cycle">
    <rebind input="kb1_ "/>
   </action>
+  <action name="turret_pitch_mouse">
+   <rebind input="mo1_ "/>
+  </action>
   <action name="turret_remote_exit">
    <rebind input="kb1_ "/>
    <rebind input="js3_button22"/>
+  </action>
+  <action name="turret_yaw_mouse">
+   <rebind input="mo1_ "/>
   </action>
  </actionmap>
  <actionmap name="turret_advanced">
