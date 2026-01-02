@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="Raygun T.16000M 2.1">
- <CustomisationUIHeader label="Raygun T.16000M 2.1" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="Raygun T.16000M 2.2">
+ <CustomisationUIHeader label="Raygun T.16000M 2.2" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -108,8 +108,14 @@
   <action name="v_pitch">
    <rebind input="js2_y"/>
   </action>
+  <action name="v_pitch_down">
+   <rebind input="kb1_ "/>
+  </action>
   <action name="v_pitch_mouse">
    <rebind input="mo1_ "/>
+  </action>
+  <action name="v_pitch_up">
+   <rebind input="kb1_ "/>
   </action>
   <action name="v_roll">
    <rebind input="js2_rotz"/>
@@ -156,8 +162,14 @@
   <action name="v_yaw">
    <rebind input="js2_x"/>
   </action>
+  <action name="v_yaw_left">
+   <rebind input="kb1_ "/>
+  </action>
   <action name="v_yaw_mouse">
    <rebind input="mo1_ "/>
+  </action>
+  <action name="v_yaw_right">
+   <rebind input="kb1_ "/>
   </action>
  </actionmap>
  <actionmap name="spaceship_quantum">
@@ -167,12 +179,12 @@
  </actionmap>
  <actionmap name="spaceship_targeting">
   <action name="v_target_unlock">
-   <rebind input="js2_hat1_left"/>
+   <rebind input="js2_hat1_up" multiTap="2"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_targeting_advanced">
   <action name="v_target_cycle_all_fwd">
-   <rebind input="js2_hat1_right"/>
+   <rebind input="js2_hat1_left"/>
   </action>
   <action name="v_target_cycle_in_view_fwd">
    <rebind input="js2_ "/>
@@ -181,7 +193,7 @@
    <rebind input="js2_hat1_up"/>
   </action>
   <action name="v_target_cycle_subitem_fwd">
-   <rebind input="js2_hat1_up" multiTap="2"/>
+   <rebind input="js2_hat1_right"/>
   </action>
   <action name="v_target_under_reticle">
    <rebind input="js2_hat1_up"/>
